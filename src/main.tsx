@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Home from './pages/home'
 import ErrorPage from './pages/error'
-import Aboutcon from './container/aboutcon'
+import Aboutpage from './pages/about'
 import Projects from './pages/Projects'
 import Contact from './pages/contact'
 import Resume from './pages/resume'
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/:about",
-    element: <Aboutcon/>,
+    element: <Aboutpage/>,
     errorElement:<ErrorPage/>,
   },
   {
