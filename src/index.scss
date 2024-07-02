@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media only screen and (max-width: 768px){
+    #about{
+        display: block;
+        
+    }
+    #data{
+        width: 100%;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #home{
+        display: block;
+    }
+    #hdata{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #projects{
+        display: block;
+        width: 100%;
+    }
+    #pdata{
+        margin-bottom: 15px;
+        width: 100% ;
+    }
+    #navbar{
+        position: absolute;
+        display: none;
+        left: -900px
+    }
+    .navbar1 #navbar{
+        position: absolute;
+        display: block;
+        left: 0px;
+        top:60px;
+        transition: left 0.5s ease-in-out;
+    }
+}
