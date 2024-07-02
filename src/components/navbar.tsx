@@ -5,6 +5,7 @@ import { File } from 'lucide-react';
 import { PhoneCall } from 'lucide-react';
 import { User } from 'lucide-react';
 import { Link } from "react-router-dom";
+import me from '../images/me 1.jpg'
 const Navbar=()=>{
   const handleClick=()=>{
     document.body.classList.toggle("navbar1")
@@ -45,7 +46,7 @@ const Navbar=()=>{
         <div className="w-10 rounded-full">
           <img
             alt="Tailwind CSS Navbar component"
-            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            src={me} />
         </div>
       </div>
       <ul

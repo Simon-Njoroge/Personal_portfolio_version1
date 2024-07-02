@@ -4,7 +4,7 @@ const Me = () => {
         <>
             <div className="avatar ">
                 <div className="w-100vh rounded h-full">
-                    <img src={me} />
+                    <img src={me} id="Pimage"/>
                 </div>
             </div>
         </>
